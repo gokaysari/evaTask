@@ -39,30 +39,37 @@ DATABASE_DIALECT=database_dialect
 npm start
 ```
 
+
+```bash
 Features
 -User can buy shares
 -User can sell shares
 -User can view their portfolio
+```
 
 
+```bash
 API Endpoints
  /api/buyShare
  /api/sellShare
  /api/getTradesByPortfolio
+```
 
-
+```bash
 Models
 -User
 -Portfolio
 -Share
 -Trade
+```
 
 
+```bash
 Built With
 -Node.js
 -Express
 -Sequelize
 -PostgreSQL
-
+```
 
 Replace `username` and `projectname` with your GitHub username and project name respectively. Modify the contents according to your project's specifications and details.
