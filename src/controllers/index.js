@@ -1,5 +1,9 @@
+const portfolioController = require('./portfolioController');
+const shareController = require('./shareController');
 const tradeController = require('./tradeController');
 
 module.exports = {
-  tradeController,
+  portfolioController,
+  shareController,
+  tradeController
 };

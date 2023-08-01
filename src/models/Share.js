@@ -1,4 +1,4 @@
-const { Model, DataTypes } = require('sequelize');
+const { Model, DataTypes, Sequelize } = require('sequelize');
 const sequelize = require('../config/database');
 
 class Share extends Model {}
@@ -7,11 +7,16 @@ Share.init({
   symbol: {
     type: DataTypes.STRING,
     primaryKey: true,
+    allowNull: false
   },
-  price: DataTypes.FLOAT,
+  price: {
+    type: DataTypes.DOUBLE,
+    allowNull: false
+  },
 }, {
   sequelize,
-  modelName: 'share',
+  modelName: 'Share',
+  timestamps: false
 });
 
 module.exports = Share;
