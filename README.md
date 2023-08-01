@@ -11,13 +11,15 @@ To install the project:
 1. Clone the repository
 ```bash
 git clone https://github.com/username/projectname.git
-'''
 
 
 
+
+'''bash
 cd projectname
 
 
+'''bash
 npm install
 
 
