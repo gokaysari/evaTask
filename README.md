@@ -26,12 +26,14 @@ npm install
 Usage
 Create a .env file in the root of your project and insert your key/value pairs in the following format of KEY=VALUE:
 
+
+```bash
 DATABASE_NAME=database_name
 DATABASE_USER=database_user
 DATABASE_PASSWORD=database_password
 DATABASE_HOST=database_host
 DATABASE_DIALECT=database_dialect
-
+```
 
 ```bash
 npm start
