@@ -48,15 +48,17 @@ Features
 ```
 
 
-```bash
+
 API Endpoints
+```bash
  /api/buyShare
  /api/sellShare
  /api/getTradesByPortfolio
 ```
 
-```bash
+
 Models
+```bash
 -User
 -Portfolio
 -Share
@@ -64,8 +66,9 @@ Models
 ```
 
 
-```bash
+
 Built With
+```bash
 -Node.js
 -Express
 -Sequelize
