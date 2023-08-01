@@ -11,17 +11,17 @@ To install the project:
 1. Clone the repository
 ```bash
 git clone https://github.com/username/projectname.git
+```
 
 
 
-
-'''bash
+```bash
 cd projectname
+```
 
-
-'''bash
+```bash
 npm install
-
+```
 
 Usage
 Create a .env file in the root of your project and insert your key/value pairs in the following format of KEY=VALUE:
@@ -33,9 +33,9 @@ DATABASE_HOST=database_host
 DATABASE_DIALECT=database_dialect
 
 
-
+```bash
 npm start
-
+```
 
 Features
 -User can buy shares
